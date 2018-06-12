@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
         Triangulo t1 = new Triangulo("Estilo 1", 4.0, 4.0);
         Triangulo t2 = new Triangulo("Estilo 2", 8.0, 12.0);
+        Triangulo t3 = new Triangulo("Estilo 3", 6.0, 9.0);
+
         System.out.println("Información para T1: ");
         t1.mostrarEstilo();
         t1.mostrarDimension();
