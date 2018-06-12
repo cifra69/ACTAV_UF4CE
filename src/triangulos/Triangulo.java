@@ -15,7 +15,7 @@ class Triangulo extends DosDimensiones {
     }
 
     double area() {
-        return getBase() * getAltura() / 2;
+        return (getBase() * getAltura()) / 2;
     }
 
     void mostrarEstilo() {
